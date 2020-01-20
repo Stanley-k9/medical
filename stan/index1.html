@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Booking Form -  </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
+   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="ateValidate.css">
+  </head>
+  <body>
+  <header>
+ 
+    <!-- OUR BOOKING FORM MARKUP -->
+	
+	<p>Log in as <a href="admin/index.php">Admin</a></p>
+	 <div class="head1">
+      <h4><i class="fa fa-calendar"></i>Make an appointment in Minutes</h4>
+	 
+	</div>
+	
+	
+	<div class="smart-wrap">
+		<form class="enter-htm" action="enter.php" method="post">
+      <div class="form-body">
+      <div class="form-footer">
+
+
+		
+		<div class="section">
+			<label for="guestname" class="field-label">Please Enter Your Name</label>
+			<label for="guestname" class="field prepend-icon">
+			  <input type="text" name="guestname" id="guestname" class="gui-input" required="" placeholder="donald khathaza">
+			  <span class="field-icon"><i class="fa fa-user"></i></span>  
+			</label>
+		  </div>
+					 
+		  <div class="frm-row">
+			<div class="section colm colm6">
+			  <label for="guestemail" class="field-label">Email Address</label>
+			  <label for="guestemail" class="field prepend-icon">
+				<input type="email" name="guestemail" id="guestemail" class="gui-input" required="" placeholder="khathaza@something.com">
+				<span class="field-icon"><i class="fa fa-envelope"></i></span>  
+			  </label>
+			</div>
+			 
+			<div class="section colm colm6">
+			  <label for="guestelephone" class="field-label">Telephone / Mobile</label>
+			  <label for="guestelephone" class="field prepend-icon">
+				<input type="text" name="guestelephone" id="guestelephone" class="gui-input" required="" placeholder="Telephone / Moble Number">
+				<span class="field-icon"><i class="fa fa-phone-square"></i></span>  
+			  </label>
+			</div>
+		  </div>
+
+		  <div class="frm-row">
+			<div class="section colm colm6">
+			  <label for="adults" class="field-label">Number of Adults</label>
+			  <label for="adults" class="field prepend-icon">
+				<input type="number" id="adults" name="adults" class="gui-input" required="" placeholder="Number of adults">
+				<span class="field-icon"><i class="fa fa-users"></i></span>  
+			  </label>
+			</div>
+			 
+			<div class="section colm colm6">
+			  <label for="children" class="field-label">Number of Children</label>
+			  <label for="children" class="field prepend-icon">
+				<input type="number" id="children" name="children" class="gui-input" required="" placeholder="Number of children">
+				<span class="field-icon"><i class="fa fa-users"></i></span>  
+			  </label>
+			</div>
+		  </div>
+
+
+		  <div class="frm-row">
+			<div class="section colm colm6">
+			  <label for="checkin" class="field-label">Check-in Date</label>
+			  <label for="checkin" class="field prepend-icon">
+				<input type="text" id="checkin" name="checkin" class="gui-input" required="" placeholder="mm/dd/yyyy">
+				<span class="field-icon"><i class="fa fa-calendar"></i></span>  
+			  </label>
+			</div>
+			 
+			<div class="section colm colm6">
+			  <label for="checkout" class="field-label">Check-in Time</label>
+			  <label for="checkout" class="field prepend-icon">
+				<input type="text" id="checkout" name="checkout" class="gui-input" required="" placeholder="hh:mm">
+				<span class="field-icon"><i class="fa fa-calendar"></i></span>  
+			  </label>
+			</div>
+		  </div>
+   
+  <div class="spacer-t20 spacer-b30">
+	<div class="tagline"><span>Please answer these questions for a pleasant stay</span></div>
+  </div>
+   
+
+   
+   
+  <div class="section">
+	<label for="comments" class="field-label">Anything else we should know about?</label>
+	<label for="comments" class="field prepend-icon">
+	  <textarea class="gui-textarea" id="comments" name="comments" placeholder="Let us know about any special accommodation needs"></textarea>
+	  <span class="field-icon"><i class="fa fa-comments"></i></span>
+	  <span class="input-hint"> 
+		<strong>Please:</strong> Be as descriptive as possible
+	  </span>   
+	</label>
+  </div>
+
+        <button type="submit" class="button btn-primary">Confirm appointment</button>
+        <button type="reset" class="button">Cancel</button>
+
+	  </div>
+
+
+	</div>
+                
+</div>
+</form>
+
+</div>
+
+<div class ="linka">
+<a href="madeappointment.html"></a>
+</div>
+</header>	  
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

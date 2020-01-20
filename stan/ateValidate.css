@@ -1,0 +1,22 @@
+body{
+	background-image: url("pic1.jpg");
+    background-size: cover;
+    
+    background-attachment: fixed;
+}
+h4 {
+	color :green;
+	font-family: verdana;
+    font-size: 300%;
+}
+#p01 {
+  color: blue;
+}
+.head1
+{
+	text-align:center;
+}
+.section
+{
+	text-align:center;
+}
