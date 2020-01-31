@@ -12,12 +12,17 @@ XAMPP is a free and open-source cross-platform web server solution stack package
 To run the system using XAMPP follow the steps below
 
 1-Dowload XAMPP and install it to your device https://www.apachefriends.org/index.html
+
 2-download the system on github https://github.com/Stanley-k9/medical
+
 3-copy the system to a folder in the xampp folder called htdocs---------- C:\xampp\htdocs
+
 4-open XAMPP 
 
 5-start Apache
+
 6-start MySQL
+
 7-start FileZilla
 
 8-open your web browser and type http://localhost/stan/index1.html
