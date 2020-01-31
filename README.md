@@ -1,6 +1,8 @@
 # medical
 
-this system was developed using HTML,CSS,SQL and PHP
+Appointment making system for Doctors
+
+This system was developed using HTML,CSS,SQL and PHP
 
 I used XAMPP as my server then for the database i used PHPMYADMIN located in XAMPP
 
